@@ -21,6 +21,8 @@ while i < len(string):
         new_string += '7'
     else:
         new_string += string[i]
+    print("i: " + str(i))
+    print("string[i]: " + string[i])
     i += 1
 
 print(new_string)
